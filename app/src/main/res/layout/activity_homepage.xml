@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:src="@drawable/home"
+        tools:layout_editor_absoluteX="305dp"
+        android:layout_marginLeft="340dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="130dp">
+
+        <TableRow>
+        <ImageView
+
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+            <TextView
+                android:text="V-engage"
+                android:textColor="#130909"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="69dp"
+                />
+        </TableRow>
+    </TableLayout>
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="40dp">
+
+
+       <TableRow>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="25dp"
+
+               android:text="Welcome Dear, "
+               android:textColor="#0E0505"
+               android:textSize="27sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="name"
+               android:textColor="#830A0A"
+               android:textSize="27sp"
+               android:textStyle="bold"
+               />
+       </TableRow>
+   </TableLayout>
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These are your Matches"
+        android:textColor="#830A0A"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="530dp"
+        android:layout_height="413dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="298dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/im_aila"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/alila"
+                android:layout_marginLeft="20dp"
+                />
+            <ImageButton
+                android:id="@+id/im_ras"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/rasmika"
+                android:layout_marginLeft="20dp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:text="Alila"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="70dp"
+
+                />
+            <TextView
+                android:text="Rasmika"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="60dp"
+
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/im_kat"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/kat"
+                android:layout_marginLeft="20dp"
+                />
+            <ImageButton
+                android:id="@+id/im_deep"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/deepika"
+                android:layout_marginLeft="20dp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:text="Kat"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="70dp"
+
+                />
+            <TextView
+                android:text="Deepika"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="60dp"
+
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
